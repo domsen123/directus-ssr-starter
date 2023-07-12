@@ -14,6 +14,9 @@
   "dependencies": {
     "@directus/sdk": "^10.3.5",
     "@unocss/reset": "^0.53.5",
+    "@vueuse/core": "^10.2.1",
+    "@vueuse/head": "^1.1.26",
+    "@vueuse/router": "^10.2.1",
     "directus": "^10.4.3",
     "directus-extension-ssr": "^1.0.5",
     "pinia": "^2.1.4",
@@ -28,6 +31,7 @@
     "eslint": "^8.44.0",
     "typescript": "^5.1.6",
     "unocss": "^0.53.5",
-    "vite": "^4.4.3"
+    "vite": "^4.4.3",
+    "vite-plugin-webfont-dl": "^3.7.6"
   }
 }
