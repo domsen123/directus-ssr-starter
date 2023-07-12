@@ -4,7 +4,7 @@ This is a starter template for [`directus-extension-ssr`](https://github.com/dom
 ## Features
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness
 - 🍍 [State Management via Pinia](https://pinia.vuejs.org/)
-- [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
+- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
 - 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 - 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 - 🔤 [Webfont self-hosting](https://github.com/feat-agency/vite-plugin-webfont-dl)
