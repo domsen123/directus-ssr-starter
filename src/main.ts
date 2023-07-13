@@ -1,4 +1,6 @@
 import { handler } from 'directus-extension-ssr'
+import { routes } from 'vue-router/auto/routes'
+import { setupLayouts } from 'virtual:generated-layouts'
 import App from './App.vue'
 import type { UserModule } from './types'
 import '@unocss/reset/tailwind-compat.css'
@@ -6,9 +8,7 @@ import 'uno.css'
 
 export default handler(App,
   {
-    routes: [
-      { path: '/', component: () => import('./pages/Home.vue') },
-    ],
+    routes: setupLayouts(routes),
   },
   async (ctx) => {
     // install all modules under `modules/`
