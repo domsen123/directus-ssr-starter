@@ -14,7 +14,8 @@
     "build": "pnpm run build:client && pnpm run build:server",
     "build:client": "vite build --outDir dist/client --ssrManifest",
     "build:server": "vite build --outDir dist/server --ssr src/main.ts",
-    "start": "npx directus start"
+    "start": "npx directus start",
+    "apply:snapshot": "npx directus schema apply --yes ./_snapshot/snapshot.yaml"
   },
   "dependencies": {
     "@directus/sdk": "^10.3.5",
