@@ -5,6 +5,7 @@ import App from './App.vue'
 import type { UserModule } from './types'
 import '@unocss/reset/tailwind-compat.css'
 import 'uno.css'
+import './assets/styles/main.css'
 
 export default handler(App,
   {
