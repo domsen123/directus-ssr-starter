@@ -9,7 +9,10 @@ import './assets/styles/main.css'
 
 export default handler(App,
   {
-    routes: setupLayouts(routes),
+    routerType: 'unplugin-vue-router',
+    routerOptions: {
+      extendRoutes: () => setupLayouts(routes),
+    },
   },
   async (ctx) => {
     // install all modules under `modules/`
