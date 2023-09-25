@@ -9,9 +9,9 @@ import './assets/styles/main.css'
 
 export default handler(App,
   {
-    routerType: 'unplugin-vue-router',
+    // routerType: 'unplugin-vue-router',
     routerOptions: {
-      extendRoutes: () => setupLayouts(routes),
+      routes: setupLayouts(routes),
     },
   },
   async (ctx) => {
