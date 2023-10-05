@@ -11,6 +11,12 @@ import AutoImport from 'unplugin-auto-import/vite'
 import generateSitemap from 'vite-plugin-pages-sitemap'
 
 export default defineConfig({
+  server: {
+    watch: {
+      usePolling: true,
+      interval: 100,
+    },
+  },
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,
