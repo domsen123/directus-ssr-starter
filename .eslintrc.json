@@ -4,30 +4,6 @@
     "@unocss"
   ],
   "rules": {
-    "unused-imports/no-unused-imports": "warn",
-    "antfu/top-level-function": "off",
-    "antfu/if-newline": "off",
-    "no-console": "warn",
-    "@typescript-eslint/no-unused-vars": [
-      "warn",
-      {
-        "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_",
-        "caughtErrorsIgnorePattern": "^_"
-      }
-    ],
-    "vue/html-self-closing": ["error", {
-      "html": {
-        "void": "any",
-        "normal": "any",
-        "component": "any"
-      },
-      "svg": "always",
-      "math": "always"
-    }],
-    "vue/component-name-in-template-casing": ["error", "kebab-case", {
-      "registeredComponentsOnly": true,
-      "ignores": []
-    }]
+
   }
 }
