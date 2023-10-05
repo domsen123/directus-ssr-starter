@@ -1,8 +1,8 @@
 import { handler } from 'directus-extension-ssr'
-import { routes } from 'vue-router/auto/routes'
 import { setupLayouts } from 'virtual:generated-layouts'
 import App from './App.vue'
 import type { UserModule } from './types'
+import routes from '~pages'
 
 import '@unocss/reset/tailwind-compat.css'
 import 'uno.css'
